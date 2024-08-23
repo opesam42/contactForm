@@ -39,8 +39,7 @@ Users should be able to:
 
 
 ## Author
-- Gbenga Opeyemi
-- Website - [Add your name here](https://github.com/opesam42)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/opesam42)
-- Twitter - [@yourusername](https://www.twitter.com/@gbengaope04)
+- Website - [Gbenga Opeyemi](https://github.com/opesam42)
+- Frontend Mentor - [@opesam42](https://www.frontendmentor.io/profile/opesam42)
+- Twitter - [@gbengaope04](https://www.twitter.com/@gbengaope04)
 - LinkedIn - [Opeyemi Oluwagbemiga](www.linkedin.com/in/opeyemi-oluwagbemiga-2ba61423b)
