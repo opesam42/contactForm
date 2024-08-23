@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+   <link rel="stylesheet" href="assets/styles/main.css">
+  <style>
+    .attribution { font-size: 14px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <form action="" method="POST" novalidate>
+    <h1>Contact Us</h1>
+    <section class="name-field">
+      <div>
+        <label for="first-name">First Name</label><br>
+        <input type="text" name="first-name" id="first-name">
+        
+      </div>
+      <div>
+        <label for="last-name">Last Name</label><br>
+        <input type="text" name="last-name" id="last-name">
+      </div>
+      </section>
+      
+      <section class="email-field">
+        <label for="user-email">Email Address</label><br>
+        <input type="email" name="email" id="user-email">
+      </section>
+
+      <section class="query-field">
+        <label>Query Type</label>
+        <div class="wrapper">
+          <div>
+            <label for="general-enquiry"><input type="radio" name="query" id="general-enquiry"> General Enquiry</label>
+          </div>
+
+          <div>
+            <label for="support-request"><input type="radio" name="query" id="support-request"> Support Request</label>
+          </div>
+        </div>
+      </section>
+
+      <section class="message-field"><br>
+        <label for="message">Message</label><br>
+        <textarea id="message" style="resize: none;">
+
+        </textarea>
+      </section>
+      
+      <section class="confirm-field">
+        
+        <label for="confirm-box"><input type="checkbox" name="confirm" id="confirm-box"><span>I consent to being contacted by the team.</span></label>
+      </section>
+
+      <section>
+        <button type="submit"id="submit-btn" class="submit">Submit</button>
+      </section>
+
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+        Coded by <a href="#">Gbenga Opeyemi</a>.
+      </div>
+  </form>
+  <script src="assets/script.js"></script>
+</body>
+</html>
