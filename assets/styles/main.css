@@ -17,6 +17,9 @@ body{
     margin: 5vw;
     background-color: hsl(148, 38%, 91%);
 }
+main{
+    width: 100%;
+}
 h1{
     font-size: 2em;
     font-weight: 700;
