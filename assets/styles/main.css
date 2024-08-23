@@ -61,7 +61,7 @@ input, #message{
 }
 .name-field input, .email-field input, .query-field div label{
     display: inline-block;
-    border-width: 2px;
+    border-width: 4px;
     border-style: solid;
     border-color: hsl(148, 38%, 91%);
 }
